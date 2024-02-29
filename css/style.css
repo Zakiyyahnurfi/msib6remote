@@ -1,0 +1,55 @@
+/* contoh selector tag di eksternal */
+p {
+    color: rgb(67, 255, 255);
+    text-align: justify;
+    font-family: 'courier new', 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(../img/gambar4.jpeg);
+    background-size: cover;
+}
+
+legend {
+    padding: 10px;
+    background-color: coral;
+    color: brown;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+table {
+    border: 10px;
+    margin: auto;
+}
+
+tr {
+    padding: 5px;
+    border: 1px solid green;
+}
+tr:hover{
+    background-color: blue;
+    color: tomato;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+/*contoh selector id dapat masuk ke semua tag*/
+#paragraf {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: aqua; /*bedanya id dg class? id pake # class pake . */
+}
+/* id yang dikhususkan untuk li
+li#paragraf{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: aqua; 
+}*/
+
+/*a nama tag, item nama class di navbar*/

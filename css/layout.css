@@ -1,0 +1,59 @@
+*{
+    /*universal memungkinkan semua tag yg ada di dalam html terpengaruh dg css universal*/
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url(../img/pekan1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    background-size: cover;
+    text-align: center;
+    color: beige;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(202, 177, 225);
+    justify-content: center;
+    display: flex;
+}
+.navbar a{
+    float: center;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(186, 155, 193);
+    color: rgb(204, 206, 116);
+}
+
+.column{
+    float: left;
+    padding: 10px;
+}
+.column.side{
+    width: 25%;
+}
+.column.middle{
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer{
+    background-color: rgb(204, 243, 243);
+    padding: 10px;
+    text-align: center;
+}
